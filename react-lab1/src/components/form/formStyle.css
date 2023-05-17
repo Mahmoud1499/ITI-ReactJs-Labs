@@ -1,0 +1,30 @@
+
+input[type="text"] {
+  width: 90%;
+  height: 60px;
+  padding: 12px 20px;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+input[type="text"]:focus {
+  width: 1;
+  border: 3px solid #555;
+}
+
+#resetBtn {
+  width: 200px;
+  height: 60px;
+  margin: auto;
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+h1,
+h2 {
+  height: 30px;
+  text-align: center;
+}
